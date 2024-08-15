@@ -1,0 +1,72 @@
+@media screen and (max-width:576px) {
+  
+    .nav-main{
+        flex-direction: column;
+    }
+    h1{
+        color: rgb(19, 19, 19);
+        
+        font-size: 30px;
+        font-weight: 400;
+    }
+    p{
+        font-size: 10px;
+    }
+    .banner-head{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .feature-1{
+        flex-direction: column-reverse;
+    }
+    .feature-left, .feature-right{
+        width: 100%;
+    }
+    .feature-right{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .feature-right h1{
+        font-size: 24px;
+    }
+    .feature-left{
+        padding-top: 30px;
+    }
+    /* feature2 */
+    .feature-2{
+        
+        flex-direction: column;
+        
+    }
+    .feature2-left, .feature2-right{
+        width: 100%;
+    }
+    .feature2-left h3{
+        font-size: 30px;
+    }
+    
+    .feature2-right img{
+        width: 80%;
+    }
+    
+    .position{
+        position: absolute;
+        right: 0;
+        left: 210px;
+        bottom: -32px;
+        border: none;
+        padding: 5px 20px 5px 20px;
+        text-align: center;
+        border-radius: 8px;
+    width: 25%;
+    color: white;
+    background: rgb(255, 144, 14);
+    }
+    .position h2{
+     font-size: 20px;
+    }
+    
+    
+    
+}

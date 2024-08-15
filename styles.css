@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* shared style */
+h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+h1{
+    color: rgb(19, 19, 19);
+    
+    font-size: 45px;
+    font-weight: 400;
+}
+p{
+    color: rgb(114, 114, 114);
+
+   font-size: 14px;
+   font-weight: 400;
+}
+.btn-primary{
+    border-radius: 8px;
+    padding: 15px;
+    border: none;
+    color: white;
+    background: rgb(255, 144, 14);
+}
+.span{
+    color:rgb(255, 144, 14);
+}
+.span-2{
+    color: rgb(114, 114, 114);
+}
+/* navbar  */
+.nav-main{
+    max-width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+
+
+
+.nav-button{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+    display: flex;
+    gap: 30px;
+    
+   
+   
+}
+.nav-button button{
+    border: none;
+    background-color: transparent;
+}
+/* banner */
+.banner-main{
+    max-width: 80%;
+    margin: 40px auto;
+    align-items: center;
+    /* border: 2px solid blue;   */
+}
+.banner-head{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-img img{
+    width: 100%;
+    margin-top: 30px;
+}
+/* feature-1 */
+.feature-1{
+    max-width: 70%;
+    margin: 40px auto;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.feature-left, .feature-right{
+    width: 45%;
+}
+.feature-left{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.feature-left img{
+    width: 100%;
+    box-shadow: 2px 4px 4px 2px rgb(229, 191, 197);
+}
+.feature-right{
+    padding-top: 60px;
+    /* border: 2px solid blue; */
+}
+
+/* feature-2 */
+.feature-2{
+    max-width: 80%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid blue;  */
+}
+.feature2-left, .feature2-right{
+    width: 45%;
+}
+.div-box{
+    margin-left: 15px;
+}
+.feature2-right img{
+    width: 100%;
+}
+.feature2-right{
+    position: relative;
+}
+.position{
+    position: absolute;
+    bottom: -30px;
+    left: -70px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+width: 40%;
+color: white;
+background: rgb(255, 144, 14);
+}
+.position p{
+    color: white;
+    margin-top: 0;
+}
